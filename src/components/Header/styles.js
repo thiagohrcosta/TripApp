@@ -32,5 +32,9 @@ export const UserData = styled.View`
 
 export const UserName = styled.Text`
   font-size: 18px;
+  color: ${({ theme }) => theme.colors.primary};
 `;
-export const Email = styled.Text``;
+export const Email = styled.Text`
+  font-size: 14px;
+  color: ${({ theme }) => theme.colors.primary};
+`;
